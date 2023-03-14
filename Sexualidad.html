@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>SEXUALIDAD</title>
+    <link rel="stylesheet" href="StyleGeneral.css">
+</head>
+<body>
+    <header>
+        <h1 align ="center">Prueba de Sexualidad</h1>
+    </header>
+    <br>
+    <div class ="container">
+        <center><section id="b0">
+            <h3>1. ¿A qué edad el cuerpo masculino y femenino empieza a prepararse para tener relaciones o sexo coitales?</h3>
+            <label>
+                <input type="radio" value="1" name="b0" onclick="respuesta(0,this)">10 años
+            </label>
+            <br>
+            <label>
+                <input type="radio" value="2" name="b0" onclick="respuesta(0,this)">12 a 15 años
+            </label>
+            <br>
+            <label>
+                <input type="radio" value="3" name="b0" onclick="respuesta(0,this)">17 a 20 años
+            </label>
+            <br>
+            <label>
+                <input type="radio" value="4" name="b0" onclick="respuesta(0,this)">25 años
+            </label>
+        </section>
+        <br>
+        <section id="b1">
+            <h3>2. ¿Cuál es el principal obstáculo a la apertura cuando se aborda el tema de la Sexualidad?</h3>
+            <label>
+                <input type="radio" value="1" name="b1" onclick="respuesta(1,this)">El terror
+            </label>
+            <br>
+            <label>
+                <input type="radio" value="2" name="b1" onclick="respuesta(1,this)">La ira
+            </label>
+            <br>
+            <label>
+                <input type="radio" value="3" name="b1" onclick="respuesta(1,this)">La frustración
+            </label>
+            <br>
+            <label>
+                <input type="radio" value="4" name="b1" onclick="respuesta(1,this)">La pena
+            </label>
+        </section>
+        <br>
+        <section id="b2">
+            <h3>3. ¿Cuál de las siguientes opciones es una forma en que se trasmite el VIH (Virus de la Inmunodeficiencia Humana)?</h3>
+            <label>
+                <input type="radio" value="1" name="b2" onclick="respuesta(2,this)">Comer en un mismo plato.
+            </label>
+            <br>
+            <label>
+                <input type="radio" value="2" name="b2" onclick="respuesta(2,this)">Teniendo relaciones sexo coitales.
+            </label>
+            <br>
+            <label>
+                <input type="radio" value="3" name="b2" onclick="respuesta(2,this)">Besándose
+            </label>
+            <br>
+            <label>
+                <input type="radio" value="4" name="b2" onclick="respuesta(2,this)">Agarrarse de las manos.
+            </label>
+        </section>
+        <br>
+        <section id="b3">
+            <h3>4. ¿Es cierto que en la primera relación sexual no puedes embarazarte?</h3>
+            <label>
+                <input type="radio" value="1" name="b3" onclick="respuesta(3,this)">No
+            </label>
+            <br>
+            <label>
+                <input type="radio" value="2" name="b3" onclick="respuesta(3,this)">Sí
+            </label>
+            <br>
+            <label>
+                <input type="radio" value="3" name="b3" onclick="respuesta(3,this)">Tal vez
+            </label>
+            <br>
+            <label>
+                <input type="radio" value="4" name="b3" onclick="respuesta(3,this)">Posiblemente
+            </label>
+        </section>
+        <br>
+        <section id="b4">
+            <h3>5. ¿Cuáles enfermedades se transmiten teniendo relaciones sexo coitales?</h3>
+            <label>
+                <input type="radio" value="1" name="b4" onclick="respuesta(4,this)">VIH y Gonorrea
+            </label>
+            <br>
+            <label>
+                <input type="radio" value="2" name="b4" onclick="respuesta(4,this)">Hepatitis y Varicela
+            </label>
+            <br>
+            <label>
+                <input type="radio" value="3" name="b4" onclick="respuesta(4,this)">Sarro y Caries
+            </label>
+            <br>
+            <label>
+                <input type="radio" value="4" name="b4" onclick="respuesta(4,this)">Parotiditis y Fiebre
+            </label>
+        </section></center>
+        <br>
+        <br>
+        <br>
+        <center><button onclick="corregir()"> <img src="Imagenes\Resultados.jpg" width="244" height="49"> </button>
+        <H2 text align="center">Cantidad acertadas: <span id="resultado"></span>/5</H2>
+        <br>
+        <br>
+        <br>
+    
+        
+        <a title="MENU" href="index.html">
+            <img src="Imagenes\Menú.jpg" width="201" heigh="47"></a></center>
+</div>
+<script src="ScriptGeneral.js"></script>
+</body>
+</html>

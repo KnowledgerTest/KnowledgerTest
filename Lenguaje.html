@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>LENGUAJE</title>
+    <link rel="stylesheet" href="StyleGeneral.css">
+</head>
+<body>
+    <header>
+        <h1 align ="center"> Prueba de Lenguaje </h1>
+    </header>
+    <br>
+    <div class ="container">
+        <center><section id="b0">
+            <h3>1. ¿Cuál de las siguientes palabras es un diptongo?</h3>
+            <label>
+                <input type="radio" value="1" name="b0" onclick="respuesta(0,this)">Esto
+            </label>
+            <br>
+            <label>
+                <input type="radio" value="2" name="b0" onclick="respuesta(0,this)">Causa
+            </label>
+            <br>
+            <label>
+                <input type="radio" value="3" name="b0" onclick="respuesta(0,this)">Mucha 
+            </label>
+            <br>
+            <label>
+                <input type="radio" value="4" name="b0" onclick="respuesta(0,this)">Pereza
+            </label>
+        </section>
+        <br>
+        <section id="b1">
+            <h3>2. Trata de un hidalgo pobre que de tanto leer novelas de caballería acaba enloqueciendo y creyendo ser un caballero andante que al final decide emprender su viaje como caballero junto a su fiel escudero Sancho Panza. ¿A cuál novela se refiere el texto?</h3>
+            <label>
+                <input type="radio" value="1" name="b1" onclick="respuesta(1,this)">Los chicos son mejores que las flores
+            </label>
+            <br>
+            <label>
+                <input type="radio" value="2" name="b1" onclick="respuesta(1,this)">Hotel del Luna
+            </label>
+            <br>
+            <label>
+                <input type="radio" value="3" name="b1" onclick="respuesta(1,this)">Romeo y Julieta
+            </label>
+            <br>
+            <label>
+                <input type="radio" value="4" name="b1" onclick="respuesta(1,this)">Don Quijote de la Mancha
+            </label>
+        </section>
+        <br>
+        <section id="b2">
+            <h3>3. ¿Qué partes componen una oración?</h3>
+            <label>
+                <input type="radio" value="1" name="b2" onclick="respuesta(2,this)">Sujeto y verbo
+            </label>
+            <br>
+            <label>
+                <input type="radio" value="2" name="b2" onclick="respuesta(2,this)">Sujeto y predicado
+            </label>
+            <br>
+            <label>
+                <input type="radio" value="3" name="b2" onclick="respuesta(2,this)">Sujeto y pronombre
+            </label>
+            <br>
+            <label>
+                <input type="radio" value="4" name="b2" onclick="respuesta(2,this)">Verbo y complemento
+            </label>
+        </section>
+        <br>
+        <section id="b3">
+            <h3>4. ¿Cuáles son los elementos de la comunicación?</h3>
+            <label>
+                <input type="radio" value="1" name="b3" onclick="respuesta(3,this)">Emisor, mensaje, receptor, código y canal.
+            </label>
+            <br>
+            <label>
+                <input type="radio" value="2" name="b3" onclick="respuesta(3,this)">Receptor, morfema, emisor, mensaje y canal.
+            </label>
+            <br>
+            <label>
+                <input type="radio" value="3" name="b3" onclick="respuesta(3,this)">Receptor, morfema, fonema, canal y código.
+            </label>
+            <br>
+            <label>
+                <input type="radio" value="4" name="b3" onclick="respuesta(3,this)">Emisor, mensaje, receptor, código, canal y situación.
+            </label>
+        </section>
+        <br>
+        <section id="b4">
+            <h3>5. ¿Cuáles son los tipos de acentuación que existen?</h3>
+            <label>
+                <input type="radio" value="1" name="b4" onclick="respuesta(4,this)">Prosódica, diacrítica, ortográfica.
+            </label>
+            <br>
+            <label>
+                <input type="radio" value="2" name="b4" onclick="respuesta(4,this)">Fonema, grafema, lexema.
+            </label>
+            <br>
+            <label>
+                <input type="radio" value="3" name="b4" onclick="respuesta(4,this)">Tildación, fuerza de voz, omisión de tildes.
+            </label>
+            <br>
+            <label>
+                <input type="radio" value="4" name="b4" onclick="respuesta(4,this)">Tónica, Neutra y Atónica.
+            </label>
+        </section></center>
+        <br>
+        <br>
+        <br>
+        <center><button onclick="corregir()"> <img src="Imagenes\Resultados.jpg" width="244" height="49"> </button>
+        <H2 text align="center">Cantidad acertadas: <span id="resultado"></span>/5</H2>
+        <br>
+        <br>
+        <br>
+    
+        
+        <a title="MENU" href="index.html">
+            <img src="Imagenes\Menú.jpg" width="201" heigh="47"></a></center>
+        
+</div>
+<script src="ScriptGeneral.js"></script>
+</body>
+</html>

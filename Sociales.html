@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>SOCIALES</title>
+    <link rel="stylesheet" href="StyleGeneral.css">
+</head>
+<body>
+    <header>
+        <h1 align ="center">Prueba de Sociales</h1>
+    </header>
+    <br>
+    <div class ="container">
+        <center><section id="b0">
+            <h3>1. ¿Cuál es el nombre del hombre que colonizó América?</h3>
+            <label>
+                <input type="radio" value="1" name="b0" onclick="respuesta(0,this)">Maximiliano Hernández Martínez
+            </label>
+            <br>
+            <label>
+                <input type="radio" value="2" name="b0" onclick="respuesta(0,this)">Cristóbal Colón
+            </label>
+            <br>
+            <label>
+                <input type="radio" value="3" name="b0" onclick="respuesta(0,this)">Aristóteles
+            </label>
+            <br>
+            <label>
+                <input type="radio" value="4" name="b0" onclick="respuesta(0,this)">Isaac Newton
+            </label>
+        </section>
+        <br>
+        <section id="b1">
+            <h3>2. ¿Por qué los españoles le dijeron “indios” a las personas precolombinas que habitaban América?</h3>
+            <label>
+                <input type="radio" value="1" name="b1" onclick="respuesta(1,this)">No podían distinguir.
+            </label>
+            <br>
+            <label>
+                <input type="radio" value="2" name="b1" onclick="respuesta(1,this)">Porque los precolombinos en realidad eran indios.
+            </label>
+            <br>
+            <label>
+                <input type="radio" value="3" name="b1" onclick="respuesta(1,this)">Porque tenían el mismo lenguaje.
+            </label>
+            <br>
+            <label>
+                <input type="radio" value="4" name="b1" onclick="respuesta(1,this)">Pensaron que estaban en la India.
+            </label>
+        </section>
+        <br>
+        <section id="b2">
+            <h3>3. ¿En qué año llegó Cristóbal Colón a América?</h3>
+            <label>
+                <input type="radio" value="1" name="b2" onclick="respuesta(2,this)">1553
+            </label>
+            <br>
+            <label>
+                <input type="radio" value="2" name="b2" onclick="respuesta(2,this)">1492
+            </label>
+            <br>
+            <label>
+                <input type="radio" value="3" name="b2" onclick="respuesta(2,this)">1339
+            </label>
+            <br>
+            <label>
+                <input type="radio" value="4" name="b2" onclick="respuesta(2,this)">1700
+            </label>
+        </section>
+        <br>
+        <section id="b3">
+            <h3>4. ¿Qué son los derechos humanos?</h3>
+            <label>
+                <input type="radio" value="1" name="b3" onclick="respuesta(3,this)">Son los derechos que tenemos básicamente por existir como seres humanos.
+            </label>
+            <br>
+            <label>
+                <input type="radio" value="2" name="b3" onclick="respuesta(3,this)">Cuando falta un equilibrio entre dos o más personas.
+            </label>
+            <br>
+            <label>
+                <input type="radio" value="3" name="b3" onclick="respuesta(3,this)">El sistema de principios y normas, generalmente inspirados en ideas de justicia y orden.
+            </label>
+            <br>
+            <label>
+                <input type="radio" value="4" name="b3" onclick="respuesta(3,this)">Concepto polisémico que designa a un tipo particular de agrupación.
+            </label>
+        </section>
+        <br>
+        <section id="b4">
+            <h3>5. ¿Qué estudia la geografía?</h3>
+            <label>
+                <input type="radio" value="1" name="b4" onclick="respuesta(4,this)">Las relaciones entre la sociedad y el espacio.
+            </label>
+            <br>
+            <label>
+                <input type="radio" value="2" name="b4" onclick="respuesta(4,this)">El medio ambiente.
+            </label>
+            <br>
+            <label>
+                <input type="radio" value="3" name="b4" onclick="respuesta(4,this)">Las normas que forman nuestro ordenamiento.
+            </label>
+            <br>
+            <label>
+                <input type="radio" value="4" name="b4" onclick="respuesta(4,this)">La organización de la sociedad.
+            </label>
+        </section></center>
+        <br>
+        <br>
+        <br>
+        <center><button onclick="corregir()"> <img src="Imagenes\Resultados.jpg" width="244" height="49"> </button>
+        <H2 text align="center">Cantidad acertadas: <span id="resultado"></span>/5</H2>
+        <br>
+        <br>
+        <br>
+        
+        <a title="MENU" href="index.html">
+            <img src="Imagenes\Menú.jpg" width="201" heigh="47"></a></center>
+</div>
+<script src="ScriptGeneral.js"></script>
+</body>
+</html>

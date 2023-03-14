@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 23px;
+    color: white;
+    text-align: center;
+    background: rgba(126, 19, 214, 0.967);
+    padding: 10px;
+}
+section{
+    text-align: justify;
+    width: 900px;
+    border: 5px solid rgba(126, 19, 214, 0.967);
+    background: white;
+    border-radius: 20px;
+    padding: 20px;
+}
+label{
+    display: block;
+    color: black;
+    background-color: none;
+    padding-left: 20px;
+}
+label:hover{
+    background: white;
+    color: Black;
+}
+h3{
+    color: #000000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+button{
+    width: 244px;
+    height: 47px;
+    display: block;
+    margin: none;
+    padding: 0px;
+    background-color: none;
+    border: none;
+    border-radius: 0px;
+
+}
+button:hover{
+    background: none;
+    color: none;
+}
